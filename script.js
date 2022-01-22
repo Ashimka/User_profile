@@ -2,6 +2,7 @@
 const btn = document.querySelector('.form-btn');
 const userProfile = {};               
 
+//получение значений из input в обьект
   function addUserProfile() {
 
     userProfile.name = document.querySelector('#name').value;
