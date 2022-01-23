@@ -31,7 +31,7 @@ const userProfile = {};
 
     // lastName
     if (document.querySelector('#lastName').value !== '') {
-      userProfile.name = document.querySelector('#lastName').value;
+      userProfile.lastName = document.querySelector('#lastName').value;
     }  
     if (document.querySelector('#lastName').value === '') {
       document.querySelector('#lastName').style.border ='2px solid red';
@@ -41,7 +41,7 @@ const userProfile = {};
 
     //sity
     if (document.querySelector('#sity').value !== '') {
-      userProfile.name = document.querySelector('#sity').value;
+      userProfile.sity = document.querySelector('#sity').value;
     }  
     if (document.querySelector('#sity').value === '') {
       document.querySelector('#sity').style.border ='2px solid red';
@@ -51,7 +51,7 @@ const userProfile = {};
 
     //DateBirth
     if (document.querySelector('#DateBirth').value !== '') {
-      userProfile.name = document.querySelector('#DateBirth').value;
+      userProfile.dateBirth = document.querySelector('#DateBirth').value;
     }  
     if (document.querySelector('#DateBirth').value === '') {
       document.querySelector('#DateBirth').style.border ='2px solid red';
@@ -61,7 +61,7 @@ const userProfile = {};
 
     //email
     if (document.querySelector('#email').value !== '') {
-      userProfile.name = document.querySelector('#email').value;
+      userProfile.email = document.querySelector('#email').value;
     }  
     if (document.querySelector('#email').value === '') {
       document.querySelector('#email').style.border ='2px solid red';
